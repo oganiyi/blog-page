@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    margin-left: 5%;
+}
+
+.nav-link{
+    background-color: rgb(197, 41, 41);
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.nav-link li{
+    padding: 10px 20px;
+}
+
+.nav-link a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.nav-link a:hover{
+    background-color: black;
+    transition: .5s;
+}
+
+.section-one{
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+     url(../home-page/images/hp1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+
+.section-one div{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 30%;
+    right: 30%;
+    text-align: center;
+}
+
+.section-one span{
+    /* background-color: white; */
+    color: white;
+    padding: 2%;
+}
+
+.section-one p:nth-child(2){
+    color: rgb(18, 201, 18);
+    font-size: 30px;
+    font-weight: bold;
+    margin: 4% 0;
+    padding: 2%;
+    /* background-color: rgba(240, 248, 255, 0.301); */
+}
+
+.section-one p:nth-child(3){
+    margin-bottom: 4%;
+    color: white;
+    font-size: 18px;
+}
+
+.section-two{
+    display: flex;
+    margin: 30px;
+}
+
+.section-two div{
+    width: 33.3%;
+}
+
+.section-two img{
+    width: 100%;
+    height: 315px;
+}
+
+.section-three > div{
+    margin-top: 20px;
+}
+
+.section-three img, .section-four img, .section-nine img{
+    width: 200px;
+    height: 150px;
+}
+
+.section-three > div p:last-child{
+    margin-bottom: 20px;
+    color: rgb(197, 41, 41);
+}
+
+.section-three > div p{
+    text-align: center;
+}
+
+.section-three, .section-four, .section-six, .section-seven, .content-nine, .section-ten,
+.section-twelve, .section-thirteen{
+    display: flex;
+    /* margin: 20px; */
+    justify-content: space-between;
+}
+
+.section-four{
+    margin: 50px 0;
+}
+
+.section-four > div{
+    margin-top: 20px;
+}
+
+.section-four > div p:last-child{
+    margin-bottom: 20px;
+    color: rgb(197, 41, 41);
+}
+
+.section-four > div p{
+    text-align: center;
+}
+
+.section-five span:first-child{
+    background-color: rgb(197, 41, 41);
+    padding: 5px;
+}
+
+.section-five div:first-child{
+    text-align: center;
+}
+
+.section-five div:last-child{
+    color: white;
+    background-color: rgb(197, 41, 41);
+    margin: 20px;
+    padding: 10px;
+}
+
+.section-five div:last-child h3{
+    font-size: 30px;
+}
+
+.section-six img{
+    width: 100%;
+    height: 300px;
+}
+
+.section-six div{
+    width: 25%;
+}
+
+.section-seven{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.877);
+    padding: 2% 7%;
+    /* justify-content: space-between; */
+}
+
+.section-seven > div{
+    margin-top: 20px;
+}
+
+.section-eight{
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../home-page/images/hp1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.section-eight div{
+    position: absolute;
+    text-align: center;
+    background-color: rgb(197, 41, 41);
+    top: 30%;
+    bottom: 20%;
+    left: 30%;
+    right: 30%;
+    padding: 5%;
+    overflow: scroll;
+}
+
+/* .section-eight img{
+    position: absolute;
+    top: 1%;
+    left: 30%;
+    right: 30%;
+    padding: 5%;
+    border: 1px solid white;
+} */
+
+.section-nine{
+    margin: 10px 0;
+}
+
+.section-nine > h1{
+    text-align: center;
+    color: rgb(197, 41, 41);
+}
+
+.content-nine > div{
+    margin: 30px;
+}
+
+.section-ten{
+    background-color: rgb(21, 21, 59);
+}
+
+.section-ten > div{
+    background-color: white;
+    margin: 20px;
+    padding: 5px 10px;
+}
+
+.section-eleven{
+    margin: 50px 0;
+    text-align: center;
+}
+
+.section-eleven input{
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.section-eleven button{
+    background-color: rgb(197, 41, 41);
+    padding: 5px;
+}
+
+.section-twelve{
+    padding: 2% 5%;
+    background-color: rgb(21, 21, 59);
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.section-twelve > div{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.section-thirteen{
+    padding: 2% 5%;
+    background-color: rgb(21, 21, 59);
+    color: white;
+}
+
+i{
+    color: white;
+    font-size: 20px;
+    padding: 0 5px;
+}
+
+@media only screen and (max-width: 768px){
+    *{
+        flex-wrap: wrap;
+        font-size: 20px;
+    }
+
+    .section-one{
+        height: 300px;
+    }
+
+    .section-one > div{
+        top: 20%;
+        left: 0;
+        right: 0;
+    }
+
+    .section-two{
+        align-items: center;
+    }
+
+    .section-two div{
+        width: 50%;
+    }
+
+    .section-two img{
+        width: 100%;
+        height: 300px;
+    }
+
+    .section-six div{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 399px){
+    .section-one > div{
+        top: 10%;
+        left: 0;
+        right: 0;
+    }
+
+    .section-three > div{
+        margin-left: 25%;
+    }
+
+    .section-four > div{
+        margin-left: 25%;
+    }
+}
