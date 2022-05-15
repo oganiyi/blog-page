@@ -12,24 +12,6 @@ header{
     margin-left: 5%;
 }
 
-
-.nav-link{
-    background-color: rgb(197, 41, 41);
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-}
-
-.nav-link li{
-    padding: 10px 20px;
-}
-
-.nav-link a{
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 20px;
-}
 .nav-link a:hover{
     background-color: black;
     transition: .5s;
@@ -145,6 +127,12 @@ header{
     margin-top: 20px;
     margin-right: 10px;
 }
+
+.section-four a{
+    text-decoration: none;
+    color: white;
+}
+
 
 .section-five{
     display: flex;
